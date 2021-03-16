@@ -30,8 +30,8 @@ modules:
         sha256: ee54b56062feb05c9f80963a4e3ae8555d0e59ca60ddbcba65ce05225c9b9a79
         x-checker-data:
           type: html
-          url: https://www.mersenne.org/download/
-          pattern: "(http://www.mersenne.org/ftp_root/gimps/p95v(\\d+b*\\d*).linux64.tar.gz)"
+          url: https://www.mersenne.org/download/?mirror=1
+          pattern: "(https://download.mersenne.ca/gimps/p95v(\\d+b*\\d*).linux64.tar.gz)"
 
       - type: file
         path: mprime-wrapper
